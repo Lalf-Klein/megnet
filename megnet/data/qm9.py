@@ -150,7 +150,7 @@ def ring_to_vector(l):
         (list of integer) fixed size list with the i-1 th element indicates number of
             i-sized ring this atom is involved in.
     """
-    return_l = [0] * 9
+    return_l = [0] * 14
     if l:
         for i in l:
             return_l[i - 1] += 1
